@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <title>Mu</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+        <style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            }
+            h1 {
+                text-transform: uppercase;
+                letter-spacing: 4px;
+                font-size: 14pt;
+                color: #209cdc;
+                /* border: 3px solid #11aeff;
+                border-radius: 14px;
+                color: #11aeff; */
+            }
+            p {
+                line-height: 1.5;
+            }
+            .container {
+                display: flex;
+                justify-content: center;
+            }
+            .left, .right {
+                padding: 1em;
+            }
+            .left {
+                padding-top: 2.5em;
+                margin-right: 1em;
+                max-width: 30em;
+            }
+            .right {
+                padding: 1em 0;
+            }
+            video {
+                border-radius: 12px;
+                transform: perspective(980px) rotateY(-24deg) rotateX(2deg);
+                box-shadow: 0 0 2px 1px rgba(0,0,0,.05), 30px 40px 60px rgba(0,0,0,.05), 5px 5px 20px rgba(0,0,0,.05);
+                width: 310px;
+            }
+            li {
+                margin-bottom: 10px;
+                list-style-type: none;
+            }
+            ul {
+                padding: 0.5em 2em;
+            }
+            i {
+                color: #209cdc;
+                margin-right: 0.5em;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="left">
+                <h1>Mu</h1>
+                <h2>Meeting up has never been easier.</h2>
+                <p>
+                    With Mu, coordinating plans with your friends is simple.
+                </p>
+                <p>
+                    First, join one of our rooms with your friends. Once you're
+                    all there, you can:
+                    <ul>
+                        <li><i class="far fa-check-circle"></i> See where they are at a glance</li>
+                        <li><i class="far fa-check-circle"></i> See how far they're willing to travel</li>
+                        <li><i class="far fa-check-circle"></i> Suggest places to meet</li>
+                        <li><i class="far fa-check-circle"></i> Vote on where you want to go</li>
+                    </ul>
+                </p>
+                <p>
+                    By visualizing how each person's travel time overlaps, we
+                    make it easy to see locations that are most convenient for everyone.
+                </p>
+            </div>
+            <div class="right">
+                <video width="400" preload="metadata" loop="" playsinline="" autoplay="" muted="" class="">
+                    <source src="demo.mov">
+                </video>
+            </div>
+        </div>
+    </body>
+</html>
